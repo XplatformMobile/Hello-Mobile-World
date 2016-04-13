@@ -1,0 +1,17 @@
+".container": {
+	backgroundColor: "yellow"	// some color names work
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#090",	// 000=black, fff=white, f00=red, 090=green
+	transform: Alloy.Globals.rotateLeft // fn is defined in the alloy.js file
+}
+
+"#label": {
+	font: {
+		fontSize: 36,
+		color: "red"	// why doesn't this override Label color above?
+	}
+}
